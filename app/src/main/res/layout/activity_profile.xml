@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/userProfileImageView"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        android:src="@drawable/test_user_profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEmail"
+        android:layout_below="@id/userProfileImageView"
+        android:importantForAutofill="no"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+        app:drawableStartCompat="@drawable/icon_email"
+        tools:ignore="TextFields"
+        android:hint="User Email Here"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName"
+        android:layout_below="@id/userEmail"
+        android:importantForAutofill="no"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+        app:drawableStartCompat="@drawable/icon_person"
+        tools:ignore="TextFields"
+        android:hint="User Full Name Here"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPhoneNumber"
+        android:layout_below="@id/userName"
+        android:importantForAutofill="no"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+        app:drawableStartCompat="@drawable/icon_phone"
+        tools:ignore="TextFields"
+        android:hint="User Contact Number Here"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userLogOutBtn"
+        android:layout_below="@id/userPhoneNumber"
+        android:text="logout"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:onClick="LogOut"
+        />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/editUserBtn"-->
+<!--        android:text="Edit Profile"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/userLogOutBtn"-->
+<!--        android:onClick="EditUserProfile"-->
+<!--        />-->
+
+
+</RelativeLayout>

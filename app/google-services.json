@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213704615227",
+    "project_id": "comp2000-referred-course-adcb5",
+    "storage_bucket": "comp2000-referred-course-adcb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213704615227:android:b9ea698bfb21ddfc65431e",
+        "android_client_info": {
+          "package_name": "com.example.comp2000referredcoursework"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkBtacKiRMmpNxsp0nwaMhadI4-qsTD4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
