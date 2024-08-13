@@ -29,7 +29,7 @@
         android:textColor="@color/black"
         android:layout_margin="10dp"
         android:padding="20dp"
-        android:drawableStart="@drawable/icon_person"
+        android:drawableStart="@drawable/icon_email"
         android:drawablePadding="20dp"
         tools:ignore="TextFields"
         />

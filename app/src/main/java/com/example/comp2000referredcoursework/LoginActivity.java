@@ -103,7 +103,8 @@ public class LoginActivity extends AppCompatActivity  implements View.OnClickLis
                     LoginProgressBar.setVisibility(View.INVISIBLE);
                     LoginBtn.setVisibility(View.INVISIBLE);
                     RegisterNowTxt.setVisibility(View.INVISIBLE);
-                    Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
+//                    Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, UserActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 }else {
